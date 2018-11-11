@@ -1,0 +1,56 @@
+div#calculator {
+  display: block;
+  overflow: auto;
+}
+
+div.display {
+  margin: 1rem;
+}
+
+div.keys {
+  margin: 1rem;
+}
+
+div.keys button {
+  background: #ccc1c1;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 7px;
+}
+
+div.top button {
+  margin: 0.5rem;
+}
+
+div.middle button {
+  margin: 0.5rem;
+}
+
+div.bottom button {
+  margin: 0.5rem;
+}
+
+div.footer button {
+  margin: 0.5rem;
+}
+
+h1 {
+  background: #dedede;
+}
+
+.clear {
+  padding: 1%;
+}
+
+.viewer {
+  overflow: auto;
+  background: #e8e7e7;
+  line-height: 3rem;
+  width: 22%;
+  height: auto;
+  text-align: left;
+  margin-left: 3%;
+  padding: 10px;
+  border: 5px solid #7d7d7d;
+}
+/*# sourceMappingURL=style.css.map */
